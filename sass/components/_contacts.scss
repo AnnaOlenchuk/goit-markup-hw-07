@@ -15,6 +15,11 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover .contacts__icon,
+    &:focus .contacts__icon {
+      fill: $accent-color;
+    }
   }
 
   .contacts__icon {
@@ -30,10 +35,5 @@
   
     transition-property: fill;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover .contacts__icon,
-    &:focus .contacts__icon {
-      fill: $accent-color;
-    }
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
   }
