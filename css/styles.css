@@ -536,22 +536,22 @@ width: calc((100% - 90px) / 4);
 
 .features__item:nth-child(1)::before {
   content: "";
-  background-image: url(../images/antenna\ 1.svg);
+  background-image: url(../images/antenna1.svg);
 }
 
 .features__item:nth-child(2)::before {
   content: "";
-  background-image: url(../images/clock\ 1.svg);
+  background-image: url(../images/clock1.svg);
 }
 
 .features__item:nth-child(3)::before {
   content: "";
-  background-image: url(../images/diagram\ 1.svg);
+  background-image: url(../images/diagram1.svg);
 }
 
 .features__item:nth-child(4)::before {
   content: "";
-  background-image: url(../images/astronaut\ 1.svg);
+  background-image: url(../images/astronaut1.svg);
 }
 
 .features__text {
@@ -703,7 +703,7 @@ width: calc((100% - 90px) / 4);
   fill: var(--white-color);
 }
 
-.team.section {
+.team__section {
   background-color: var(--secondary-background-color);
 }
 
@@ -817,10 +817,9 @@ width: calc((100% - 90px) / 4);
   border: none;
   outline: none;
   color: var(--white-color);
-
   box-shadow: 
-  0px 3px 1px var(--box-shadow-plus); 
-  0px 1px 2px var(--box-shadow-light); 
+  0px 3px 1px var(--box-shadow-plus), 
+  0px 1px 2px var(--box-shadow-light), 
   0px 2px 2px var(--box-shadow-primary);
 }
 

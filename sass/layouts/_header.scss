@@ -1,0 +1,31 @@
+.header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  /*  ACHTUNG!  */
+  .secondary-header {
+    border-bottom: 1px solid $border-color;
+  }
+  
+  .header__container {
+    display: flex;
+    justify-content: flex-end;
+  
+    align-items: center;  
+  }
+  
+  .header__logo-link {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .header__item {
+    display: flex;
+
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
+  
+  

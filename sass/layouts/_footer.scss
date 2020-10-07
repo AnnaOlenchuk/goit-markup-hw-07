@@ -1,0 +1,121 @@
+.footer {
+    background-color: $footer-color;
+  
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .address {
+    margin-top: 20px;
+  }
+  
+  .address__item {
+    display: block;
+    
+    margin-bottom: 9px;
+  
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    color: $white-color;
+  }
+
+  .address__item.link {
+    color: $footer-form-outline;
+  
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  } 
+  
+  .footer__unit:nth-child(1) {
+    margin-right: 70px;
+  }
+  
+  .footer__unit:nth-child(2) {
+    margin-right: 93px;
+  }
+  
+  .footer__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+  
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: $white-color;
+  }
+    
+  .footer__form-field {
+   display: flex;
+  
+   margin-top: 20px;
+  }
+  
+  .footer__form-input {
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    padding: 15px 16px;
+  
+    border: 1px solid $footer-form-outline;
+    border-radius: 4px;
+  
+    background-color: $footer-color;
+    color: $white-color;
+  }
+  
+  .footer__button {
+    position: relative;
+    width: 200px;
+    height: 50px;
+  
+    background-color: $accent-color;
+    box-shadow: 0px 4px 4px var( --box-shadow-form-button);
+    border-radius: 4px; 
+  
+    border-style: none;
+
+      &:focus,
+      &:active {
+        border-style: none;
+      }
+  }
+  
+  .footer__button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 24px;
+    margin: 0;
+  
+  }
+  
+  .footer__button-text {
+    margin: 0 10px 0 0;
+  
+    color: $white-color;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+  }
+  
+  .footer__button-icon {
+    display: block;
+    
+    width: 24px;
+    height: 24px;
+  
+    fill: $white-color;
+  }
