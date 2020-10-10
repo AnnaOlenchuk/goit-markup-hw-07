@@ -6,27 +6,48 @@
   
     margin: 0;
   }
-  
-  .container {
+
+// .section {
+//   background-color: tomato;
+// }
+ 
+.container {
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    // background-color: greenyellow;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
   }
-  
-  .list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-  
-  .link {
-    text-decoration: none;
+}
+
+@media screen and (min-width: 768px){
+    .container {
+      width: 768px;
+    }    
   }
 
-  .flexbox {
-    display: flex;
+@media screen and (min-width: 1200px) {
+    .container {
+      width: 1200px;
   }
- 
+}
   
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.flexbox {
+  display: flex;
+}

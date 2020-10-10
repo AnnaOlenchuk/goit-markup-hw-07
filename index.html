@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Studio</title>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
@@ -22,27 +23,27 @@
           <!-- <span class="primary-logo">Web</span><span class="secondary-logo">Studio</span> -->
         </a>
         <!-- Menu items -->
-        <ul class="site-nav list">
-          <li class="header__item"><a href="" class="site-nav__link link current">Студия</a></li>
-          <li class="header__item"><a href="./portfolio.html" class="site-nav__link link">Портфолио</a></li>
-          <li class="header__item"><a href="" class="site-nav__link link">Контакты</a></li>
+        <ul class="site-nav site-nav__list list">
+          <li class="header__item site-nav__item"><a href="" class="site-nav__link link current">Студия</a></li>
+          <li class="header__item site-nav__item"><a href="./portfolio.html" class="site-nav__link link">Портфолио</a></li>
+          <li class="header__item site-nav__item"><a href="" class="site-nav__link link">Контакты</a></li>
         </ul>
       </nav>
 
       <!-- Contacts-->
       <ul class="contacts list">
-        <li class="header__item">
+        <li class="header__item contacts__item">
 
           <a href="mailto:info@devstudio.com" class="contacts__link link">
 
-            <svg class="contacts__icon">
+            <svg class="contacts__icon"  width="14px" height="10px">
               <use href="./images/svg-sprite.svg#envelope"></use>
             </svg>
             info@devstudio.com</a>
         </li>
-        <li class="header__item">
+        <li class="header__item contacts__item">
           <a href="tel:+380961111111" class="contacts__link link">
-            <svg class="contacts__icon">
+            <svg class="contacts__icon" width="10px" height="14px">
               <use href="./images/svg-sprite.svg#smartphone"></use>
             </svg>
             <span class="contacts__link-text">+38 096 111 11 11</span>
@@ -54,7 +55,7 @@
 
   <main>
     <!-- Hero -->
-    <section class="hero">
+    <section class="hero section">
       <h1 class="hero__title">
         Эффективные решения<br />
         для вашего бизнеса
@@ -103,7 +104,7 @@
     <!-- Services -->
     <section class="section no-padding">
       <div class="container">
-        <h2 class="section-title">Чем мы занимаемся</h2>
+        <h2 class="section-title services__title">Чем мы занимаемся</h2>
         <ul class="services list flexbox">
           <li class="services__item">
             <div class="services__thumb">
@@ -131,7 +132,7 @@
     <section class="section team__section">
       <div class="container">
         <h2 class="section-title">Наша команда</h2>
-        <ul class="team list flexbox">
+        <ul class="team list">
           <li class="team__item">
             <img src="./images/team1.jpg" alt="Игорь Демьяненко фото" width="270" />
             <div class="team__description">
@@ -341,8 +342,8 @@
   </main>
 
   <!-- Footer -->
-  <footer class="footer">
-    <div class="container flexbox">
+  <footer class="footer section">
+    <div class="container">
       <div class="footer__unit">
         <a href="/" class="logo link">
           <img src="./images/footer-logo.svg" alt="logo" />

@@ -1,7 +1,7 @@
 .modal__title {
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
@@ -123,7 +123,7 @@
     align-items: center;
   
     margin-bottom: 4px;
-    font-size: 14px;
+    font-size: 0.75rem;
     line-height: 1.71;
   }
 
@@ -134,19 +134,12 @@
     color: $accent-color;
     }
   }
-
-  // .form__link,
-  // .form__link:hover,
-  // .form__link:focus,
-  // .form__link:visited {
-  //   color: $accent-color;
-  // }
   
   .form__comment {
     resize: none;
     padding: 12px 16px;
   
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 1.16;
     letter-spacing: 0.01em;
   }
@@ -201,7 +194,7 @@
     border-radius: 4px;
   
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.87;
     color: $white-color;
   
@@ -222,5 +215,11 @@
     }
   }
 
+  // desktop
+  // .form__label-policy,
+  // .form__link {
+  
+  //   font-size: 0.875rem;
+  // }
 
   

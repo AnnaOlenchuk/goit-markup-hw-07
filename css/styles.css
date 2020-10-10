@@ -1225,3 +1225,7 @@ margin: 0 0 4px;
   0px 1px 1px var(--box-shadow-secondary), 
   0px 2px 1px var(--box-shadow-additional);
 }
+
+@media screen and (min-width: 480px) {
+  
+}
