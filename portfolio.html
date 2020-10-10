@@ -17,15 +17,16 @@
   <header class="header secondary-header">
     <div class="header__container container">
       <nav class="site-nav">
+
         <!-- Company logo -->
         <a href="/" class="logo header__logo-link link">
           <img src="./images/logo.svg" alt="logo" class="header__logo-img" />
           <!-- <span class="primary-logo">Web</span><span class="secondary-logo">Studio</span> -->
         </a>
         <!-- Menu items -->
-        <ul class="site-nav list">
+        <ul class="site-nav site-nav__list list">
           <li class="header__item site-nav__item"><a href="./index.html" class="site-nav__link link">Студия</a></li>
-          <li class="header__item site-nav__item"><a href="" class="site-nav__link link current">Портфолио</a></li>
+          <li class="header__item site-nav__item"><a href="./portfolio.html" class="site-nav__link link current">Портфолио</a></li>
           <li class="header__item site-nav__item"><a href="" class="site-nav__link link">Контакты</a></li>
         </ul>
       </nav>
@@ -52,11 +53,10 @@
       </ul>
     </div>
   </header>
-
   <main>
     <!-- <h1>Страница portfolio</h1> -->
 
-    <section class="section">
+    <section class="section portfolio__section">
       <div class="container">
         <ul class="filter list flexbox">
           <li class="filter__item"><button type="button" class="filter__button">Все</button></li>
@@ -219,8 +219,8 @@
   </main>
 
   <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
+  <footer class="footer section">
+    <div class="container footer__container">
       <div class="footer__unit">
         <a href="/" class="logo link">
           <img src="./images/footer-logo.svg" alt="logo" />
@@ -269,7 +269,8 @@
 
       <div class="footer__unit">
         <form action="#" class="footer__form">
-          <label for="mail" class="footer__title">Подпишитесь на рассылку </label>
+          <!-- <label for="mail" class="footer__title">Подпишитесь на рассылку </label> -->
+          <p class="footer__title">Подпишитесь на рассылку</p>
           <div class="footer__form-field">
             <input type="email" name="mail" id="mail" class="footer__form-input" placeholder="E-mail">
             <button type="submit" class="footer__button">

@@ -124,7 +124,11 @@
   
     margin-bottom: 4px;
     font-size: 0.75rem;
-    line-height: 1.71;
+    line-height: 1.71; 
+
+    @media screen and (min-width: 1200px) {
+      font-size: 0.875rem;
+    }
   }
 
   .form__link {
@@ -216,10 +220,6 @@
   }
 
   // desktop
-  // .form__label-policy,
-  // .form__link {
-  
-  //   font-size: 0.875rem;
-  // }
+
 
   
